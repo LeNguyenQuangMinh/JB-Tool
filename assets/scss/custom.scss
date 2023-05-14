@@ -1,0 +1,40 @@
+
+/* Lato Font */
+$customLatoFont: stencilFontFamily("custom_lato_font");
+
+
+/* Set up Button Default */
+.btn {
+    background-color: $buttonStyle-primary-backgroundColor;
+    color: $buttonStyle-primary-color;
+    border: 1px solid $buttonStyle-primary-borderColor;
+    text-transform: uppercase;
+    display: block;
+    width: 159px;
+    height: 46px;
+    text-align: center;
+    font-size: $customFontSizeDefault;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+
+    &:hover {
+        color: $buttonStyle-primary-colorHover;
+        border: 1px solid $buttonStyle-primary-borderColorHover;
+        background-color: $buttonStyle-primary-backgroundColorHover;
+    }
+
+    &:active {
+        color: $buttonStyle-primary-colorActive;
+        border: 1px solid $buttonStyle-primary-borderColorActive;
+        background-color: $buttonStyle-primary-backgroundColorActive;
+    }
+
+
+    &.btn--large {
+        width: 290px;
+        height: 45px;
+        line-height: 45px;
+        letter-spacing: 1.5px;
+        font-size: $customFontSizeBig;
+    }
+}
