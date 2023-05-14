@@ -185,3 +185,13 @@ $microformat-abbr-padding:          null;
 // We use this to control abbr font styles
 $microformat-abbr-font-weight:      null;
 $microformat-abbr-font-decoration:  null;
+
+
+/* Halo Start */
+$customFontSizeSmallest : fontSize("smallest");
+$customFontSizeSmaller : fontSize("smaller");
+$customFontSizeSmall : fontSize("small");
+$customFontSizeDefault: fontSize("base");
+$customFontSizeBig: fontSize("large");
+$customFontSizeBigger: fontSize("larger");
+$customFontSizeBiggest: fontSize("largest");

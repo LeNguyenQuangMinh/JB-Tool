@@ -26,6 +26,9 @@ blog:
     {{/each}}
 
 <div class="main full">
+    <button class="btn btn--large">
+        Shop Now
+    </button>
     {{#if products.featured}}
         {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
     {{/if}}
